@@ -1,0 +1,24 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    height:2800px;
+    width:100%;
+}
+.bar{
+    width:100%;
+    height:10px;
+    background-color: #dadaad;
+    border-radius: 10px;
+    position:fixed
+}
+#progress{
+    width:0%;
+    height:100%;
+    border-radius: 100px;
+    background-color: rgb(73, 172, 73);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.2s;
+}
